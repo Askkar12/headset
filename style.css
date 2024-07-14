@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.header-image{
+    width: 100%;
+}
+.header-image img{
+    width: 100%;
+    height: 700px
+    
+}
+.overlap{
+    display: block;
+    position: relative;
+    bottom: 430px;
+    left: 130px;
+}
+.overlap h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.overlap p{
+    font-size: 28px;
+    font-weight: bold;
+}
+.overlap button{
+    border-style: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+}
+.first{
+    margin-top: 50px;
+}
+.first p,b{
+    margin-left: 10px;
+}
+#headee{
+    margin-top: 50px;
+    background-color: rgb(244,199,111);
+    height: 100px;
+}
+.head h2{
+    padding-top: 27px;
+    color: white;
+    font-size: 40px;
+}
+#cards{
+    margin-top: 50px;
+}
+.col-4 button{
+    display: block;
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgb(244,199,111);
+    
+}
+.card img{
+    width: 100%;
+    height: 190px;
+}
+.card-body{
+    background-color: rgb(244,199,111);
+    color: white;
+    overflow: hidden;
+}
+.card-body p{
+    color: white;
+}
+#smallcards{
+    margin-top: 50px;
+}
+
+.col-3 img{
+    height: 200px;
+    width: 300px;
+}
+#bottom{
+    margin-top: 60PX;
+    background-color: rgb(244,199,111);
+    display: flex;
+
+}
+.bottomline{
+    margin-left: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bottomline h3{
+    font-size: 35px;
+}
+#bottom button{
+    height: 40px;
+    margin-left: 350px;
+    margin-top: 60px;
+    border-style: none;
+    border-radius: 30px;
+    width: 110px;
+}
+
+.col-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.col-3 img {
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.col-3:hover img {
+    filter: blur(5px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    text-align: center;
+}
+
+.col-3:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.row .col-9 .class1 p a{
+    text-decoration: none;
+    color: rgb(244, 199, 111);
+}
